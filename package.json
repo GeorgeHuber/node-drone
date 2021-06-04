@@ -1,0 +1,14 @@
+{
+  "name": "node_drone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdrone": "^1.1.5"
+  }
+}
