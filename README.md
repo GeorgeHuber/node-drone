@@ -17,10 +17,12 @@ forked from [pdrone](https://github.com/algolia/pdrone)
 
 all good to go :)
 
-#Starter Code
-`const pdrone = require('pdrone');
-const drone = pdrone({id: 'dronename', debug: false});
-drone.on('connected', function() {
+# use
+
+place code to move the drone in drone.js file
+
+# starter code
+`
   drone.flatTrim(); // use flatTrim() everytime you want the drone to calm down
   drone.takeOff();
   drone.land();  
@@ -39,12 +41,4 @@ drone.on('connected', function() {
   drone.closeClaw();
   drone.fire();
 
-  // events
-  drone.on('connected', function() {});
-  // flight status, accessories, ... you'll have to dig that
-  drone.on('sensor', function(event) {
-    // event.name =>
-    //   flatTrimDone, status, alert, claw, gun, position, speed, altitude, quaternion
-    // event.value
-  });
-});`
+  `
