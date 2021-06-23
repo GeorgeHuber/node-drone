@@ -1,5 +1,7 @@
 # node_drone
 
+forked from [pdrone](https://github.com/algolia/pdrone)
+
 # prerequisites
 
 [zadig](https://zadig.akeo.ie/) 
