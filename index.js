@@ -1,5 +1,6 @@
-import {main} from "./drone"
-import {land} from "./land"
+import {main} from "./drone.js"
+import {land} from "./land.js"
+
 const pdrone = require('pdrone');
 
 const drone = pdrone({id: 'dronename', debug: true});

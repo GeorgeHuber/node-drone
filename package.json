@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "test1.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "land": "node land.js"
+    "stop": "node land.js"
   },
   "author": "",
   "license": "ISC",

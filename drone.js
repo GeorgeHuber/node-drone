@@ -1,8 +1,8 @@
-import {sleep} from "./droneWrapper"
+import {sleep} from "./droneWrapper.js"
 
 
 
-async function main( drone ){
+export async function main( drone ){
     /*
         YOUR CODE GOES HERE 
         | | | | | | | | | |
@@ -10,7 +10,7 @@ async function main( drone ){
     */ 
    drone.takeOff();
 
-   await sleep(5000);
+   await sleep(5000)
 
    drone.land();
 }
