@@ -22,23 +22,19 @@ all good to go :)
 place code to move the drone in drone.js file
 
 # starter code
-`
-  drone.flatTrim(); // use flatTrim() everytime you want the drone to calm down
-  drone.takeOff();
-  drone.land();  
-  drone.flatTrim();
-  drone.emergency(); // immediately stops the drone, that's what is inside stop.js
-  drone.fly({
-    roll: 0, // -100/100
-    pitch: 0, // -100/100
-    yaw: 0, // -100/100
-    gaz: 0, // -100/100, = throttle
-  });
-  drone.autoTakeOff(); // will start propellers in low mode and wait for you to throw it in the air (gently)
-  drone.flip({direction: 'right'}); // front/back/right/left
-  drone.cap({offset: 0}); // -180/180, I have no idea what this does
-  drone.openClaw();
-  drone.closeClaw();
-  drone.fire();
-
-  `
+```drone.flatTrim(); // use flatTrim() everytime you want the drone to calm down  
+  drone.takeOff();  
+  drone.land();   
+  drone.flatTrim();  
+  drone.emergency(); // immediately stops the drone, that's what is inside stop.js  
+  drone.fly({  
+    roll: 0, // -100/100  
+    pitch: 0, // -100/100  
+    yaw: 0, // -100/100  
+    gaz: 0, // -100/100, = throttle  
+  });  
+  drone.autoTakeOff(); // will start propellers in low mode and wait for you to throw it in the air (gently)  
+  drone.flip({direction: 'right'}); // front/back/right/left  Really Cool 10/10 recommend
+  drone.cap({offset: 0}); // -180/180, Sorry I have no idea what this does   
+  ```
+  
