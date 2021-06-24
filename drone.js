@@ -1,22 +1,26 @@
-import {sleep} from "./droneWrapper.js"
+import { sleep } from "./droneWrapper.js"
 
 
 
-export async function main( drone ){
-    /*
-        YOUR CODE GOES HERE 
-        | | | | | | | | | |
-        V V V V V V V V V V
-    */ 
-   drone.takeOff();
-    await sleep(5000);
+export async function main(drone) {
+  /*
+      for help check the README
 
-    
-    drone.flip({direction:"right"})
-await sleep(5000);
+      YOUR CODE GOES HERE 
+      | | | | | | | | | |
+      V V V V V V V V V V
+  */
 
-   drone.land();
-    await sleep(6000)
+  drone.takeOff(); //examples
+  await sleep(5000);
+
+
+  drone.flip({ direction: "right" })
+  await sleep(5000);
+
+  drone.land();
+  await sleep(6000)
+
 }
 
 
