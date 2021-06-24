@@ -1,0 +1,67 @@
+*note* for advanced documentation view README.md
+
+
+  ------------------ flys forward for 2 seconds. 
+  drone.fly({ 
+    roll:0, //rotation around x-axis -100<val<100
+    pitch:20, //rotation around z-axis aka foward and backward -100<val<100
+    yaw:0, //rotation around y-axis aka left and right-100<val<100 
+    gaz:20 //throttle -100<val<100
+  })
+  await sleep(2000)
+  ------------------
+
+
+  ------------------ flys backwards for 4 seconds
+  drone.fly({ 
+    roll:0,
+    pitch:-20,
+    yaw:0,
+    gaz:20
+  })
+  await sleep(4000)
+  ------------------
+
+
+  ------------------ flys up for 4.5 seconds
+  drone.fly({ 
+    roll:0,
+    pitch:0,
+    yaw:0,
+    gaz:20
+  })
+  await sleep(4500)
+  ------------------
+
+
+  ------------------ turns right for 2 seconds
+  drone.fly({ 
+    roll:0,
+    pitch:0,
+    yaw:20,
+    gaz:20
+  })
+  await sleep(2000)
+  ------------------ 
+
+
+  ------------------ does a flip. direction can be front/back/right/left. 10/10 reccomend
+  
+  drone.flip({direction:"right"}) 
+  
+  ------------------ 
+
+
+  ------------------ stops the drone midflight
+
+  drone.emergency()
+
+  ------------------
+
+
+  ------------------ calm the drone down
+
+  drone.flatTrim(); 
+
+  ------------------ 
+
