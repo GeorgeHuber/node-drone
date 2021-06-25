@@ -3,10 +3,10 @@
 
   ------------------ flys forward for 2 seconds. 
   drone.fly({ 
-    roll:0, //rotation around x-axis -100<val<100
-    pitch:20, //rotation around z-axis aka foward and backward -100<val<100
-    yaw:0, //rotation around y-axis aka left and right-100<val<100 
-    gaz:20 //throttle -100<val<100
+    roll:0, //move left and right -100<val<100
+    pitch:20, //move forward and backward -100<val<100
+    yaw:0, //turn left and right-100<val<100 
+    gaz:20 //throttle or move up and down -100<val<100
   })
   await sleep(2000)
   ------------------
