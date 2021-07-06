@@ -17,6 +17,11 @@ npm stop
 
 */
 
+//Put drone id that appears in your console in the quotation marks
+
+export const id = "";
+
+
 export async function main(drone) {
   //launches drone
   drone.takeOff();

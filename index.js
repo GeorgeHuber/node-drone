@@ -1,10 +1,12 @@
-import { main } from "./drone.js"
+import { main, id } from "./drone.js"
 import { land } from "./land.js"
 import { sleep } from "./droneWrapper.js"
 import pdrone from "pdrone"
 import readline from "readline"
 
-const drone = pdrone({ id: 'mambo', debug: true });
+
+//change id below to Mambo_1234 replace 1234 with what your computer says the first time you run the program
+const drone = pdrone({ id: id, debug: true });
 
 drone.on("connected", async function () {
     //Sigint workaround for windows
